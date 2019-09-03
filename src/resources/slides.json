@@ -1,6 +1,6 @@
 [{
-    "title": "Welcome hello",
-    "content": "I have created this simple app as a way for people to create and share slides on DAT. The idea in my ind is that this or app like this could be a good way to share and distribute slide decks used at conferences and gatherings.",
+    "title": "Welcome",
+    "content": "I have created this simple app as a way for people to create and share slides on DAT. The idea in my mind is that this or an app like this could be a good way to share and distribute slide decks used at conferences and gatherings.",
     "link": "",
     "linkText": "",
     "template": "splashBasic",
@@ -8,26 +8,34 @@
     "image": "camping.jpg"
 }, {
     "title": "How to use?",
-    "content": "Simply fork the website in Beaker browser and edit the slides.json file. To add additional slides copy one of blocks as shown in the screenshot on the next slide",
+    "content": "Simply fork this website in Beaker browser and edit the slides.json file. To add additional slides copy one of blocks as shown in the screenshot on the next slide",
     "link": "",
     "linkText": "",
     "template": "basic",
     "backgroundColour": "#FFA07A",
     "image": ""
 }, {
-    "title": "Want to build from Scratch?",
-    "content": "",
-    "link": "",
-    "linkText": "",
-    "template": "basic",
-    "backgroundColour": "#FFA07A",
-    "image": ""
-}, {
-    "title": "Want to build from Scratch?",
+    "title": "Creating New Slide",
     "content": "",
     "link": "",
     "linkText": "",
     "template": "photo",
     "backgroundColour": "#FFA07A",
-    "image": "camping.jpg"
+    "image": "slideJSON.png"
+}, {
+    "title": "Slide Templates",
+    "content": "There are three slide templates at present Splash, Basic and Photo. Splash just has a title centered vertically and horizontally. Basic has a title centered at the top of page and body text underneath. Photo has a title centered at the top with space for an image underneath.",
+    "link": "",
+    "linkText": "",
+    "template": "basic",
+    "backgroundColour": "#FFA07A",
+    "image": "slideJSON.png"
+}, {
+    "title": "The Code",
+    "content": "The code can be found on Github in the link below. This is pretty basic at present and I do have plans to add a few more features and some more templates to give this some more flexibility over the next weeks.",
+    "link": "https://github.com/andrew6767/dat-lwc-slides",
+    "linkText": "dat-lwc-slides",
+    "template": "basic",
+    "backgroundColour": "#FFA07A",
+    "image": "slideJSON.png"
 }]
