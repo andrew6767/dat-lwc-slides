@@ -1,0 +1,32 @@
+<template>
+    <div if:true={slides}>
+    <div class="slds-grid slds-wrap" style="height: 100vh">
+        <div class={containerClass}>
+            <span>
+                <template for:each={mySlides} for:item="slide">
+                    <div key={slide.Id} if:true={slide.active}>
+                        <my-template-holder slide={slide}>
+                            <my-template-basic slide={slide} if:true={slide.templateBasic}>
+                            </my-template-basic>
+                            <my-template-photo slide={slide} if:true={slide.templatePhoto}>
+                            </my-template-photo>
+                            <my-template-splash-text slide={slide} if:true={slide.templateSplashBasic}>
+                            </my-template-splash-text>
+                        </my-template-holder>
+                    </div>
+                </template>
+            </span>
+        </div>
+        <div if:false={mobile} class="slds-col slds-large-size_1-of-3">
+            <span>
+                <my-step-list slides={mySlides} onslidechange={handleSlideChange}></my-step-list>
+            </span>
+        </div>
+        <div if:true={mobile} class="slds-col slds-large-size_3-of-3">
+            <my-paginator onnextslide={handleNextSlide} onpreviousslide={handlePreviousSlide} max={mySlides.length}>
+            </my-paginator>
+        </div>
+    </div>
+    <my-mobile-toggle onmobiletogglechange={handleMobileToggleChange}></my-mobile-toggle>
+   </div>
+</template>

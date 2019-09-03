@@ -1,0 +1,7 @@
+<template>
+    <template for:each={slides} for:item="slide">
+        <div key={slide.Id}>
+            <my-step-list-item data-key={slide.Id} onclick={handleSlideChange}>{slide.title}</my-step-list-item>
+        </div>
+    </template>
+</template>

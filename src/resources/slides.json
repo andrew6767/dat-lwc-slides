@@ -1,0 +1,33 @@
+[{
+    "title": "Welcome hello",
+    "content": "I have created this simple app as a way for people to create and share slides on DAT. The idea in my ind is that this or app like this could be a good way to share and distribute slide decks used at conferences and gatherings.",
+    "link": "",
+    "linkText": "",
+    "template": "splashBasic",
+    "backgroundColour": "#FFA07A",
+    "image": "camping.jpg"
+}, {
+    "title": "How to use?",
+    "content": "Simply fork the website in Beaker browser and edit the slides.json file. To add additional slides copy one of blocks as shown in the screenshot on the next slide",
+    "link": "",
+    "linkText": "",
+    "template": "basic",
+    "backgroundColour": "#FFA07A",
+    "image": ""
+}, {
+    "title": "Want to build from Scratch?",
+    "content": "",
+    "link": "",
+    "linkText": "",
+    "template": "basic",
+    "backgroundColour": "#FFA07A",
+    "image": ""
+}, {
+    "title": "Want to build from Scratch?",
+    "content": "",
+    "link": "",
+    "linkText": "",
+    "template": "photo",
+    "backgroundColour": "#FFA07A",
+    "image": "camping.jpg"
+}]
