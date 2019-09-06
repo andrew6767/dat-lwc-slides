@@ -116,6 +116,9 @@ export default class App extends LightningElement {
     }
 
     handleMobileToggleChange(evt) {
+        this.setAllSlidesFalse();
+        this.mySlides[0].active = true;
+
         this.mobile = evt.detail;
 
         this.containerClass = evt.detail ? 'slds-col slds-large-size_3-of-3' : 'slds-col slds-large-size_2-of-3';
